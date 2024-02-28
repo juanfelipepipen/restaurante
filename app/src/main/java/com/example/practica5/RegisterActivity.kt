@@ -12,8 +12,8 @@ class RegisterActivity : AppCompatActivity() {
 
         val button: Button = findViewById(R.id.button2);
 
-        button.setOnClickListener{
-            var intent: Intent = Intent(this,MenuActivity::class.java)
+        button.setOnClickListener {
+            var intent = Intent(this, MenuActivity::class.java)
             startActivity(intent);
         }
     }
